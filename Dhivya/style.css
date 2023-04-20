@@ -1,0 +1,28 @@
+h2{
+    background-color: blue;
+    border:solid black;
+}
+
+table{
+    border:solid red;
+}
+
+h2.head{
+   background-color: aqua; 
+}
+
+.head{
+    background-color: aquamarine;
+}
+.head{
+    margin-top: 25px;
+}
+
+#sign{
+    border: solid 20px;
+}
+
+
+.Order ul{
+    background-color: palevioletred;
+}

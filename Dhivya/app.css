@@ -1,0 +1,74 @@
+body{
+    margin:0p,auto;
+    background-color: lightseagreen;
+}
+div.app{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: yellow;
+}
+#logo{
+    float: left;
+    padding: 10px;
+} 
+.search{
+    float: right;
+    padding: 10px;
+}  
+.clearfix{
+    clear: both;
+}
+.Navbar{
+    background-color: pink ;
+}
+.Navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.Navbar>ul>li{
+   display: inline-block; 
+}
+.Navbar>ul a{
+    text-decoration: none;
+    display: block;
+    color: black ;
+    padding: 5px;
+}
+.Navbar>ul a:hover{
+    background-color: blue;
+}
+.drop{
+    position: absolute;
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    display: none;
+    z-index: 999;
+}
+.Navbar>ul>li:hover  .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+}
+.content h3{
+    margin: 0px;
+}
+
+.Content{
+    background-color: aquamarine;
+    padding: 10px;
+    width: 750px;
+    height: auto;
+    float: left;
+}
+
+
+
+
+
+
